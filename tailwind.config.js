@@ -17,11 +17,12 @@ module.exports = {
       fontFamily: {
         helvetica: ["helvetica", "sans-serif"],
       },
-      colors:{
-            'darkGreen':'#003459F5',
-            'darkBlack':'#00000033',
-            'skyBlue':'#00A8E8',
-          }
+      colors: {
+        'darkGreen': "#003459F5",
+        'darkBlack': "#00000033",
+        'skyBlue': "#00A8E8",
+        'deepBlue': "#00171F",
+      },
     },
   },
   plugins: [],
