@@ -13,10 +13,10 @@ const HeroSection = () => {
           <div className="flex items-center max-lg:flex-col gap-8 max-lg:gap-6 max-xl:py-14 max-md:py-7">
             <div className="w-6/12 max-lg:w-full">
               <div>
-                <h1 className="leading-[70px] font-helvetica max-w-[612px] max-lg:max-w-none max-lg:text-center  font-normal leading-[91.429%] text-[64px] text-white max-xl:text-5xl max-lg:text-4xl max-md:text-3xl">
+                <h1 className="leading-[70px] font-helvetica max-w-[612px] max-lg:max-w-none max-lg:text-center  font-normal text-[64px] text-white max-xl:text-5xl max-lg:text-4xl max-md:text-3xl">
                   Easily Compare Energy, Gas, and Internet Plans
                 </h1>
-                <p className="font-helvetica max-lg:text-center text-base font-normal max-w-[506px] pt-4 text-white max-md:max-w-none max-lg:mx-auto">
+                <p className="leading-[24px] font-helvetica max-lg:text-center text-base font-normal max-w-[506px] pt-4 text-white max-md:max-w-none max-lg:mx-auto">
                   Find and switch to the best energy, gas, and internet plans
                   with ease. Our platform simplifies your search, letting you
                   compare providers and make informed decisions, all in one
