@@ -27,11 +27,11 @@ const Header = () => {
                                     {obj.name}
                                 </a>
                             ))}
-                            <button className="flex items-center gap-3 px-5 py-2 transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white hover-border-darkGreen bg-white text-black rounded-e-full border border-solid rounded-b-full lg:hidden">
+                            <button className="font-helvetica flex items-center gap-3 px-5 py-2 transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white hover-border-darkGreen bg-white text-black rounded-e-full border border-solid rounded-b-full lg:hidden">
                                 Get Started <BLACK_ARROW/>
                             </button>
                         </div>
-                        <button className="hover:border-darkGreen transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white flex items-center gap-3 px-5 py-2 bg-white text-black rounded-e-full border border-solid rounded-b-full max-lg:hidden">
+                        <button className="font-helvetica hover:border-darkGreen transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white flex items-center gap-3 px-5 py-2 bg-white text-black rounded-e-full border border-solid rounded-b-full max-lg:hidden">
                             Get Started <BLACK_ARROW/>
                         </button>
                         <button
