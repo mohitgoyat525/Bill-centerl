@@ -1,37 +1,45 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { NAV_LIST } from '../utils/Helper';
-import Logo from '../assets/images/webp/bill-center-logo.webp';
 import { BLACK_ARROW } from '../utils/Icon';
 const Header = () => {
     const [open, setOpen] = useState(false)
     const handleOpen = () => setOpen(!open)
+    useEffect(() => {
+        const handleOverflow = () => {
+            if (open && window.innerWidth < 1024) {
+                document.body.classList.add("overflow-hidden");
+            } else {
+                document.body.classList.remove("overflow-hidden");
+            }
+        };
+        handleOverflow();
+        window.addEventListener("resize", handleOverflow);
+        return () => {
+            window.removeEventListener("resize", handleOverflow);
+        };
+    }, [open]);
     return (
         <div>
             <header>
-                <div className="container">
                     <nav className="flex items-center justify-between pt-5">
                         <a href="/">
                             <img
-                                src={Logo}
+                                src='/assets/images/webp/bill-center-logo.webp'
                                 alt="Bill Center Logo"
                                 className="w-full max-w-[105px]"
                             />
                         </a>
                         <div className={` z-40 flex gap-10 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'bg-darkGreen max-lg:left-0' : 'left-full'}`}>
                             {NAV_LIST.map((obj, i) => (
-                                <a
-                                    className="text-white text-base font-normal font-helvetica"
-                                    href={obj.href}
-                                    key={i}
-                                >
-                                    {obj.name}
+                                <a href={obj.id} className="text-white text-base font-normal font-helvetica"  key={i}>{obj.name}
                                 </a>
+                            
                             ))}
-                            <button className="font-helvetica flex items-center gap-3 px-5 py-2 transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white hover-border-darkGreen bg-white text-black rounded-e-full border border-solid rounded-b-full lg:hidden">
+                            <button className="font-helvetica flex items-center gap-3 px-[22px] py-2 transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white hover-border-darkGreen bg-white text-black rounded-e-full border border-solid rounded-b-full lg:hidden">
                                 Get Started <BLACK_ARROW/>
                             </button>
                         </div>
-                        <button className="font-helvetica hover:border-darkGreen transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white flex items-center gap-3 px-5 py-2 bg-white text-black rounded-e-full border border-solid rounded-b-full max-lg:hidden">
+                        <button className="font-helvetica hover:border-darkGreen transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white flex items-center gap-3 px-[22px] py-[14px] bg-white text-black rounded-e-full border border-solid rounded-b-full max-lg:hidden">
                             Get Started <BLACK_ARROW/>
                         </button>
                         <button
@@ -49,7 +57,6 @@ const Header = () => {
                             ></span>
                         </button>
                     </nav>
-                </div>
             </header>
         </div>
     );
