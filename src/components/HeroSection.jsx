@@ -36,9 +36,10 @@ const HeroSection = () => {
             <div className="w-6/12 max-lg:w-full ">
               <img
                 src='/assets/images/webp/hero-section-img.webp'
-                alt="work"
-                className="pointer-events-none w-full max-w-[558px] max-lg:mx-auto relative z-0 translate-y-[120px] max-xl:translate-y-0 max-xl:pb-7"
+                alt="working-girl"
+                className=" max-lg:hidden pointer-events-none w-full max-w-[558px] max-lg:mx-auto relative z-0 translate-y-[120px] max-xl:translate-y-0 max-xl:pb-7"
               />
+              <img src="/assets/images/webp/hero-section-sm-img.webp" alt="working-girl" className="mx-auto lg:hidden pointer-events-none w-full max-w-[558px]" />
             </div>
           </div>
         </div>

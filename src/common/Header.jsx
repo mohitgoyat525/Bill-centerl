@@ -30,8 +30,9 @@ const Header = () => {
                             />
                         </a>
                         <div className={` z-40 flex gap-10 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'bg-darkGreen max-lg:left-0' : 'left-full'}`}>
-                            {NAV_LIST.map((obj, i) => (
-                                <a href={obj.id} className="text-white text-base font-normal font-helvetica"  key={i}>{obj.name}
+                        {NAV_LIST.map((obj, i) => (
+                                
+                            <a href={obj.id} className="text-white text-base font-normal font-helvetica relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5 after:left-0"  key={i}>{obj.name}
                                 </a>
                             
                             ))}
