@@ -5,5 +5,9 @@
 
  @font-face {
       font-family: "helvetica";
-      src: url("../src/fonts/Helvetica.ttf") format("truetype");
+      src: url("/public/assets/fonts/Helvetica.ttf") format("truetype");
     }
+
+  body{
+    font-family: helvetica;
+  } 
