@@ -5,7 +5,7 @@ import CustomButton from "../common/CustomButton";
 const EnergyPlans = () => {
   return (
     <div>
-      <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-20 max-md:pt-16 max-sm:pt-10 '>
+      <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-sm:pt-10 '>
         <div className='container'>
           <div className='flex gap-[75px] max-xl:gap-16 max-lg:gap-12 max-lg:flex-col'>
             <div className='w-6/12 max-lg:w-full'>
@@ -21,8 +21,8 @@ const EnergyPlans = () => {
                 <ul className='max-lg:text-center list-disc text-black-bean  list-inside flex flex-col gap-2 mt-7 max-lg:mt-5 max-md:mt-3'>{ENERGY_LIST.map((items, i) => (
                   <li key={i} className='text-base max-md:text-sm font-normal text-deepBlue'>{items}</li>
                 ))}</ul>
-                <div className='mt-[42px]'>
-                  <CustomButton />
+                <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6'>
+                  <CustomButton btnTittle="compare With Us" />
                   </div>
               </div>
             </div>

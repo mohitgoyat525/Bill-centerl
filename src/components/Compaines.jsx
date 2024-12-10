@@ -10,7 +10,7 @@ const Compaines = () => {
         </h2>
         <div className='flex items-center justify-evenly mt-16 max-xl:mt-10 max-lg:mt-7 max-sm:mt-6 max-lg:flex-wrap max-sm:flex-col max-lg:gap-7'>
           {COMPANIES_LOGO.map((item, i) => (
-            <img className='w-full max-w-[126px]' key={i} src={item.logo} alt={item.alt} />
+            <img className={`w-full ${i === 6 ? 'max-w-[63px]' : 'max-w-[126px]'}`} key={i} src={item.logo} alt={item.alt} />
           ))}
         </div>
       </div>
