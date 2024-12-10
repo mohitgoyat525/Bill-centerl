@@ -1,3 +1,5 @@
+import { BLUNDE_ICON, BULP_ICON, GAS_PLAN_ICON, INTERENT_ICON } from "./icons";
+
 export const NAV_LIST = [
   {
     name: "About",
@@ -62,4 +64,31 @@ export const ENERGY_LIST = [
   "Save money by finding cheaper deals.",
   "Get better customer service.",
   "Explore greener, more sustainable energy options.",
+];
+
+export  const ACCORDION_DATA = [
+  {
+    icon: <BULP_ICON />,
+    title: "Electricity Plan Comparisons",
+    description:
+      "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
+  },
+  {
+    icon: <GAS_PLAN_ICON />,
+    title: "Gas Plan Comparisons",
+    description:
+      "Compare water providers to find the best rates and services for your needs.",
+  },
+  {
+    icon: <INTERENT_ICON />,
+    title: "Internet Plan Comparisons",
+    description:
+      "Get the best internet plans with high speed and affordable pricing.",
+  },
+  {
+    icon: <BLUNDE_ICON />,
+    title: "Bundle Packages",
+    description:
+      "Find the best gas plans with flexible contracts and cost-efficient options.",
+  },
 ];

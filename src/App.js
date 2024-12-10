@@ -5,6 +5,7 @@ import EnergyPlans from './components/EnergyPlans';
 import HeroSection from './components/HeroSection';
 import SwitchSteps from './components/SwitchSteps';
 import SimpleSlider from './components/SwitchStepsSlider';
+import UtilitySection from './components/UtilitySection';
 function App() {
   return (
     <>
@@ -12,7 +13,8 @@ function App() {
       <Compaines />
       <EnergyPlans />
       <SwitchSteps />
-      <SimpleSlider/>
+      <SimpleSlider />
+      <UtilitySection/>
     </>
   );
 }
