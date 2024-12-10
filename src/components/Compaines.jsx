@@ -10,7 +10,7 @@ const Compaines = () => {
         </h2>
         <div className='flex items-center justify-evenly mt-16 max-xl:mt-10 max-lg:mt-7 max-sm:mt-6 max-lg:overflow-x-scroll max-lg:gap-7'>
           {COMPANIES_LOGO.map((item, i) => (
-            <img className={`w-full ${i === 6 ? 'max-w-[63px]' : 'max-w-[126px]'}`} key={i} src={item.logo} alt={item.alt} />
+          <a href="#" className='transition-all ease-linear duration-200 hover:scale-90'> <img className={`w-full ${i === 6 ? 'max-w-[63px]' : 'max-w-[126px]'}`} key={i} src={item.logo} alt={item.alt} /></a>
           ))}
         </div>
       </div>
