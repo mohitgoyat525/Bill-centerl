@@ -22,7 +22,7 @@ const HeroSection = () => {
                   compare providers and make informed decisions, all in one
                   place.
                 </p>
-                <form className="max-lg:mx-auto mt-10 flex items-center justify-between max-w-[476px] bg-white rounded-e-full border-darkBlack border border-solid rounded-b-full">
+                <form className="max-lg:mx-auto mt-10 max-md:mt-6 max-sm:mt-5 flex items-center justify-between max-w-[476px] bg-white rounded-e-full border-darkBlack border border-solid rounded-b-full">
                   <input
                     type="text"
                     placeholder="Start typing your address"

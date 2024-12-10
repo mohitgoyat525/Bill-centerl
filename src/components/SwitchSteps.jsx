@@ -1,16 +1,15 @@
 import React from 'react'
 import SectionHeading from '../common/SectionHeading'
-
 const SwitchSteps = () => {
   return (
     <div>
-      <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-sm:pt-10 '>
+      <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-md:pt-12 max-sm:pt-10'>
         <div className='container'>
           <div className='text-center'>
             <SectionHeading CommonHeading='Simple Steps to' CommonHeadingBold='Switch' />
             <p className='max-w-[610px] mx-auto text-center pt-4 opacity-90'>Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum</p>
           </div>
-          <div className='flex items-center mt-14 max-xl:mt-10 max-md:mt-6 max-xl:flex-wrap max-xl:justify-center max-md:gap-6'>
+          <div className='max-xl:hidden flex items-center mt-14  max-md:mt-6 max-xl:flex-wrap max-xl:justify-center max-md:gap-6'>
             <div className='relative group img-box h-[616px]'>
               <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0 bg-[#EAF9FFF0] opacity-100'>
                 <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90'>1. Enter Your Location and Preferences</p>
