@@ -7,12 +7,12 @@ const SwitchSteps = () => {
         <div className='container'>
           <div className='text-center'>
             <SectionHeading CommonHeading='Simple Steps to' CommonHeadingBold='Switch' />
-            <p className='max-w-[610px] mx-auto text-center pt-4 opacity-90'>Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum</p>
+            <p className='max-w-[610px] mx-auto text-center pt-4 opacity-90 text-[#4B4B4B]'>Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum</p>
           </div>
           <div className='max-xl:hidden flex items-center mt-14  max-md:mt-6 max-xl:flex-wrap max-xl:justify-center max-md:gap-6'>
             <div className='relative group img-box h-[616px]'>
-              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0 bg-[#EAF9FFF0] opacity-100'>
-                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90'>1. Enter Your Location and Preferences</p>
+              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100'>
+                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90 font-normal'>1. Enter Your Location and Preferences</p>
               </div>
               <img src="/assets/images/webp/switch-steps-card-img-one.webp" alt="steps-img" className='w-full max-w-[360px]' />
               <div className='bg-darkGreen p-8 absolute bottom-0 w-full hidden group-hover:block'>
@@ -21,8 +21,8 @@ const SwitchSteps = () => {
               </div>
             </div>
             <div className='relative group img-box h-[616px]'>
-              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0 bg-[#EAF9FFF0] opacity-100'>
-                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90'>2. Compare Providers</p>
+              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100'>
+                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90 font-normal'>2. Compare Providers</p>
               </div>
               <img src="/assets/images/webp/switch-steps-card-img-two.webp" alt="steps-img" className='w-full max-w-[360px]' />
               <div className='bg-darkGreen p-8 absolute bottom-0 w-full hidden group-hover:block'>
@@ -31,7 +31,7 @@ const SwitchSteps = () => {
               </div>
             </div>
             <div className='relative group img-box h-[616px]'>
-              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0 bg-[#EAF9FFF0] opacity-100'>
+              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100'>
                 <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90'>3. Enter Your Location and Preferences</p>
               </div>
               <img src="/assets/images/webp/switch-steps-card-img-three.webp" alt="steps-img" className='w-full max-w-[360px]' />
@@ -41,8 +41,8 @@ const SwitchSteps = () => {
               </div>
             </div>
             <div className='relative group img-box h-[616px]'>
-              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0 bg-[#EAF9FFF0] opacity-100'>
-                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90'>4. Choose the Best Plan</p>
+              <div className='overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100'>
+                <p className='xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90 font-normal'>4. Choose the Best Plan</p>
               </div>
               <img src="/assets/images/webp/switch-steps-card-img-four.webp" alt="steps-img" className='w-full max-w-[360px]' />
               <div className='bg-darkGreen p-8 absolute bottom-0 w-full hidden group-hover:block'>

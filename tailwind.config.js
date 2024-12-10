@@ -22,6 +22,7 @@ module.exports = {
         'darkBlack': "#00000033",
         'skyBlue': "#00A8E8",
         'deepBlue': "#00171F",
+        'lightSkyBlue': "#EAF9FFF0",
       },
     },
   },
