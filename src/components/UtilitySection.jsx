@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SectionHeading from '../common/SectionHeading';
 import { ACCORDION_ICON, BULP_ICON } from '../utils/icons';
-import { ACCORDION_DATA } from '../utils/helper';
+import { ACCORDION_DATA_LIST } from '../utils/helper';
 
 const UtilitySection = () => {
     // State to track which accordion item is expanded
@@ -23,7 +23,7 @@ const UtilitySection = () => {
                                 <SectionHeading CommonHeading='Comprehensive Utility' CommonHeadingBold='Comparisons' />
                             </div>
                             <div className='accordion-parent pt-12 max-lg:pt-7 max-md:pt-5 max-xl:mx-auto max-xl:max-w-[558px]'>
-                                {ACCORDION_DATA.map((item, index) => (
+                                {ACCORDION_DATA_LIST.map((item, index) => (
                                     <div
                                         key={index}
                                         className={`max-w-[558px] border border-solid border-[#0000001A] p-4 max-sm:p-2 shadow-[0px_0px_13.9px_0px_#0000001A] mb-4 transition-all duration-300 ${expandedIndex === index ? 'bg-lightGray' : ''
@@ -45,7 +45,7 @@ const UtilitySection = () => {
                                                 </div>
                                             </div>
                                             <div
-                                                className={`accordion-icon transition-transform duration-300 ${expandedIndex === index ? 'rotate-180' : ''
+                                                className={`accordion-icon transition-transform duration-300 cursor-pointer ${expandedIndex === index ? 'rotate-180' : ''
                                                     }`}
                                             >
                                                 <ACCORDION_ICON />
@@ -56,7 +56,7 @@ const UtilitySection = () => {
                             </div>
                         </div>
                         <div className='w-6/12 max-lg:w-full'>
-                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='max-xl:mx-auto w-full max-w-[580px]' />
+                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='pointer-events-none max-xl:mx-auto w-full max-w-[580px]' />
                         </div>
                     </div>
                 </div>

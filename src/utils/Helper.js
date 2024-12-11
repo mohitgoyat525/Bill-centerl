@@ -66,7 +66,7 @@ export const ENERGY_LIST = [
   "Explore greener, more sustainable energy options.",
 ];
 
-export  const ACCORDION_DATA = [
+export  const ACCORDION_DATA_LIST = [
   {
     icon: <BULP_ICON />,
     title: "Electricity Plan Comparisons",
@@ -77,18 +77,18 @@ export  const ACCORDION_DATA = [
     icon: <GAS_PLAN_ICON />,
     title: "Gas Plan Comparisons",
     description:
-      "Compare water providers to find the best rates and services for your needs.",
+      "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
   },
   {
     icon: <INTERENT_ICON />,
     title: "Internet Plan Comparisons",
     description:
-      "Get the best internet plans with high speed and affordable pricing.",
+      "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
   },
   {
     icon: <BLUNDE_ICON />,
     title: "Bundle Packages",
     description:
-      "Find the best gas plans with flexible contracts and cost-efficient options.",
+      "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
   },
 ];
