@@ -14,7 +14,7 @@ const ChooseUs = () => {
           </div>
           <div className='pt-14 flex max-lg:flex-col max-md:pt-7 max-sm:pt-5'>
               <div className="w-5/12 flex justify-center max-lg:w-full items-center">
-                  <div className='p-10 bg-darkGreen rounded max-w-[424px] min-h-[596px] max-lg:min-h-[200px] max-md:max-w-[310px]  max-md:p-7'>
+                  <div className='p-10 bg-darkGreen rounded max-lg:mb-8 max-sm:mb-5 max-w-[424px] min-h-[596px] max-lg:min-h-[200px] max-md:max-w-[310px]  max-md:p-7'>
                       <div className='pb-0.5 thumb-star-icon'> <LIKED_ICON/> </div>
                       <div className='pt-7'>
                           <h3 className='text-2xl font-normal leading-custom-2xl text-white max-md:text-xl max-sm:text-lg'>Tailored Recommendations</h3>

@@ -32,6 +32,7 @@ const TestimonialsSlider = () => {
                             640: {
                                 slidesPerView: 1,
                                 centeredSlides: true,
+                                pagination: true,
                             },
                             768: {
                                 slidesPerView: 2,
@@ -62,8 +63,8 @@ const TestimonialsSlider = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div className="custom-prev max-w-max absolute top-24 xl:block max-xl:hidden -left-20 cursor-pointer border px-4 py-3 rounded-full"> <PREV_ARROW /> </div>
-                    <div className="custom-next max-w-max absolute top-24 xl:block max-xl:hidden -right-20 cursor-pointer border px-4 py-3 rounded-full"><NEXT_ARROW /></div>
+                    <div className="custom-prev max-w-max absolute top-24 xl:block max-xl:hidden -left-20 cursor-pointer border px-4 py-3 rounded-full hover:bg-black arrows-icon  transition-all ease-linear duration-200"> <PREV_ARROW /> </div>
+                    <div className="custom-next max-w-max absolute top-24 xl:block max-xl:hidden -right-20 cursor-pointer border px-4 py-3 rounded-full hover:bg-black arrows-icon transition-all ease-linear duration-200"><NEXT_ARROW /></div>
                 </div>
             </div>
         </div>

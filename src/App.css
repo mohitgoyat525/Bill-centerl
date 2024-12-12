@@ -5,6 +5,9 @@
  .group:hover .utility-icon svg path{
     fill: white !important;
 }
+.arrows-icon:hover svg path{
+    fill: white ;
+}
 @media (max-width:991.98px){
       .thumb-star-icon svg{
         height: 150px;

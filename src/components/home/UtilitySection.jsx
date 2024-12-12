@@ -3,7 +3,7 @@ import SectionHeading from '../../common/SectionHeading';
 import { ACCORDION_ICON } from '../../utils/icons';
 import { ACCORDION_DATA_LIST } from '../../utils/helper';
 
-const UtilitySection = () => { 
+const UtilitySection = () => {
     const [expandedIndex, setExpandedIndex] = useState(0);
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
@@ -28,32 +28,31 @@ const UtilitySection = () => {
                                         onClick={() => toggleAccordion(index)}
                                     >
                                         <div className='flex items-center justify-between'>
-                                            <div className='flex items-center gap-6 max-sm:gap-3'>
-                                                <div className={`w-16 h-16 max-sm:w-9 max-sm:h-9 transition-all duration-500 rounded-full flex items-center justify-center faq-icons bg-lightSkyBlue ${expandedIndex === index ? 'button-svg !bg-darkGreen' : 'bg-lightSkyBlue'}`}>
-                                                    {item.icon}
+                                            <div className="w-full">
+                                                <div className='flex justify-between gap-2'>
+                                                    <div className={`min-w-16 h-16 max-sm:min-w-9 items-center max-sm:h-9 transition-all duration-500 rounded-full flex justify-center faq-icons bg-lightSkyBlue ${expandedIndex === index ? 'button-svg !bg-darkGreen max-sm:min-w-9' : 'bg-lightSkyBlue'}`}>
+                                                        {item.icon}
+                                                    </div>
+                                                    <div className='text-deepBlue font-normal text-2xl max-md:text-lg flex items-center justify-between w-full'>{item.title} <span className={`accordion-icon transition-transform duration-300 cursor-pointer ${expandedIndex === index ? 'rotate-180' : ''
+                                                        }`}> <ACCORDION_ICON /></span> </div>
                                                 </div>
+
                                                 <div>
-                                                    <p className='text-deepBlue font-normal text-2xl max-md:text-lg'>{item.title}</p>
                                                     {expandedIndex === index && (
-                                                        <p className='max-md:text-sm mt-4 text-base font-normal text-deepBlue max-w-[442px]'>
+                                                        <p className='max-md:text-sm text-base font-normal max-xl:max-w-[364px] max-sm:translate-x-[45px] max-sm:max-w-[264px] text-deepBlue max-w-[442px] translate-x-[71px]'>
                                                             {item.description}
                                                         </p>
                                                     )}
                                                 </div>
                                             </div>
-                                            <div
-                                                className={`accordion-icon transition-transform duration-300 cursor-pointer ${expandedIndex === index ? 'rotate-180' : ''
-                                                    }`}
-                                            >
-                                                <ACCORDION_ICON />
-                                            </div>
+
                                         </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
                         <div className='w-6/12 max-lg:w-full'>
-                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='pointer-events-none max-xl:mx-auto w-full max-w-[580px]'/>
+                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='pointer-events-none max-xl:mx-auto w-full max-w-[580px]' />
                         </div>
                     </div>
                 </div>
