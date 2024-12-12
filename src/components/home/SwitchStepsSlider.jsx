@@ -43,7 +43,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90 max-sm:-mt-14">
                                     1. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -66,7 +66,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     2. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -89,7 +89,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     3. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -112,7 +112,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     4. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -135,7 +135,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     1. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -158,7 +158,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     2. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -181,7 +181,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     3. Enter Your Location and Preferences
                                 </p>
                             </div>
@@ -204,7 +204,7 @@ export default function SimpleSlider() {
                     <div className="max-w-[360px] mx-auto">
                         <div className="relative group img-box  ">
                             <div className="overlay p-8 text-start flex justify-center items-center z-50 absolute top-0 left-0 right-0 bottom-0  bg-lightSkyBlue opacity-100">
-                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 -rotate-90">
+                                <p className="font-normal xl:text-[32px] absolute text-deepBlue lg:text-2xl text-lg min-w-[600px] -mt-3 max-sm:-mt-14 -rotate-90">
                                     4. Enter Your Location and Preferences
                                 </p>
                             </div>

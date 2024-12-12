@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-import SectionHeading from '../common/SectionHeading';
-import { ACCORDION_ICON, BULP_ICON } from '../utils/icons';
-import { ACCORDION_DATA_LIST } from '../utils/helper';
+import SectionHeading from '../../common/SectionHeading';
+import { ACCORDION_ICON } from '../../utils/icons';
+import { ACCORDION_DATA_LIST } from '../../utils/helper';
 
-const UtilitySection = () => {
-    // State to track which accordion item is expanded
-    const [expandedIndex, setExpandedIndex] = useState(null);
-
-    // Function to toggle accordion state for a specific index
+const UtilitySection = () => { 
+    const [expandedIndex, setExpandedIndex] = useState(0);
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
     };
@@ -26,13 +23,13 @@ const UtilitySection = () => {
                                 {ACCORDION_DATA_LIST.map((item, index) => (
                                     <div
                                         key={index}
-                                        className={`max-w-[558px] border border-solid border-[#0000001A] p-4 max-sm:p-2 shadow-[0px_0px_13.9px_0px_#0000001A] mb-4 transition-all duration-300 ${expandedIndex === index ? 'bg-lightGray' : ''
+                                        className={`max-w-[558px] rounded border border-solid border-[#0000001A] p-4 max-sm:p-2 shadow-[0px_0px_13.9px_0px_#0000001A] mb-4 transition-all duration-300 ${expandedIndex === index ? 'bg-lightGray' : ''
                                             }`}
                                         onClick={() => toggleAccordion(index)}
                                     >
                                         <div className='flex items-center justify-between'>
                                             <div className='flex items-center gap-6 max-sm:gap-3'>
-                                                <div className='w-16 h-16 max-sm:w-9 max-sm:h-9 rounded-full flex items-center justify-center bg-lightSkyBlue'>
+                                                <div className={`w-16 h-16 max-sm:w-9 max-sm:h-9 transition-all duration-500 rounded-full flex items-center justify-center faq-icons bg-lightSkyBlue ${expandedIndex === index ? 'button-svg !bg-darkGreen' : 'bg-lightSkyBlue'}`}>
                                                     {item.icon}
                                                 </div>
                                                 <div>
@@ -56,7 +53,7 @@ const UtilitySection = () => {
                             </div>
                         </div>
                         <div className='w-6/12 max-lg:w-full'>
-                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='pointer-events-none max-xl:mx-auto w-full max-w-[580px]' />
+                            <img src="/assets/images/webp/utlity-explenation-img.webp" alt="utility-img" className='pointer-events-none max-xl:mx-auto w-full max-w-[580px]'/>
                         </div>
                     </div>
                 </div>

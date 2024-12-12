@@ -3,9 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *{
-  outline: 1px solid red !important;
-} */
+*{
+  box-sizing: border-box !important;
+}
  @font-face {
       font-family: "helvetica";
       src: url("/public/assets/fonts/Helvetica.ttf") format("truetype");
@@ -22,3 +22,4 @@
   opacity: 0 !important;
   transition: all 300ms linear !important;
 }
+

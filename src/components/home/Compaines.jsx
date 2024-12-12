@@ -1,5 +1,5 @@
 import React from 'react'
-import { COMPANIES_LOGO } from '../utils/helper'
+import { COMPANIES_LOGO } from '../../utils/helper'
 
 const Compaines = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../common/Header";
-import CustomButton from "../common/CustomButton";
+import Header from "../../common/Header";
+import CustomButton from "../../common/CustomButton";
 const HeroSection = () => {
   return (
     <>

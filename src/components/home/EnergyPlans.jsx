@@ -1,7 +1,7 @@
 import React from 'react'
-import SectionHeading from '../common/SectionHeading'
-import { ENERGY_LIST } from '../utils/helper'
-import CustomButton from "../common/CustomButton";
+import SectionHeading from '../../common/SectionHeading'
+import { ENERGY_LIST } from '../../utils/helper'
+import CustomButton from "../../common/CustomButton";
 const EnergyPlans = () => {
   return (
     <div>
@@ -23,7 +23,7 @@ const EnergyPlans = () => {
                     <li key={i} className='text-base max-md:text-sm font-normal text-deepBlue'>{items}</li>
                   </div>
                 ))}</ul>
-                <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6'>
+                <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6 w-[201px]'>
                   <CustomButton btnTittle="compare With Us" />
                 </div>
               </div>

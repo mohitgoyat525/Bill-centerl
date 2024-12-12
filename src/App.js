@@ -1,20 +1,27 @@
 
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import './App.css';
-import Compaines from './components/Compaines';
-import EnergyPlans from './components/EnergyPlans';
-import HeroSection from './components/HeroSection';
-import SwitchSteps from './components/SwitchSteps';
-import SimpleSlider from './components/SwitchStepsSlider';
-import UtilitySection from './components/UtilitySection';
+import Home from './views/Home';
+import About from './views/About';
+import HowItWork from './views/HowItWork';
+import Service from './views/Service';
+import Testinomials from './views/Testinomials';
+import WhyUs from './views/WhyUs';
+import Faq from './views/Faq';
 function App() {
   return (
     <>
-      <HeroSection />
-      <Compaines />
-      <EnergyPlans />
-      <SwitchSteps />
-      <SimpleSlider />
-      <UtilitySection/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/how' element={<HowItWork />} />
+          <Route path='/service' element={<Service />} />
+          <Route path='/testimonials' element={<Testinomials />} />
+          <Route path='/why' element={<WhyUs />} />
+          <Route path='/faq' element={<Faq/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
