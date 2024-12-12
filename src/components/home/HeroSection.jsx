@@ -10,13 +10,13 @@ const HeroSection = () => {
         <div className="container">
           <Header />
 
-          <div className="flex items-center max-lg:flex-col gap-8 max-lg:gap-6 max-xl:py-14 max-md:py-7">
+          <div className="flex items-center max-lg:flex-col max-lg:gap-6 max-xl:py-14 max-md:py-7">
             <div className="w-6/12 max-lg:w-full">
               <div>
-                <h1 className="leading-[70px] font-helvetica max-w-[612px] max-lg:max-w-none max-lg:text-center  font-normal text-[64px] text-white max-xl:text-5xl max-lg:text-4xl max-md:text-3xl">
-                  Easily Compare Energy, Gas, and Internet Plans
+                <h1 className="leading-[70px] max-w-[612px] max-lg:max-w-none max-lg:text-center  font-normal text-[64px] text-white max-xl:text-5xl max-lg:text-4xl max-md:text-3xl">
+                  Easily Compare <span className="font-bold">Energy, Gas, and Internet</span> Plans
                 </h1>
-                <p className="leading-[24px] font-helvetica max-lg:text-center text-base font-normal max-w-[506px] pt-4 text-white max-md:max-w-none max-lg:mx-auto">
+                <p className="leading-[24px] max-lg:text-center text-base font-normal max-w-[506px] pt-4 text-white max-md:max-w-none max-lg:mx-auto">
                   Find and switch to the best energy, gas, and internet plans
                   with ease. Our platform simplifies your search, letting you
                   compare providers and make informed decisions, all in one
@@ -29,7 +29,7 @@ const HeroSection = () => {
                     required
                     className="placeholder:text-deepBlue placeholder:text-base placeholder:font-normal placeholder:max-sm:text-sm max-sm:text-sm outline-none px-6 max-sm:px-3  text-deepBlue bg-transparent"
                   />
-                  <CustomButton btnTittle="compare" customClass="min-w-[137px]" />
+                  <CustomButton btnTittle="Compare" customClass="min-w-[137px]" />
                 </form>
               </div>
             </div>

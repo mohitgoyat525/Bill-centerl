@@ -11,7 +11,7 @@ const UtilitySection = () => {
 
 
     return (
-        <div>
+        
             <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-md:pt-12 max-sm:pt-10'>
                 <div className='container'>
                     <div className='flex items-center max-xl:flex-col gap-[73px] max-2xl:gap-7 max-xl:justify-center'>
@@ -19,7 +19,7 @@ const UtilitySection = () => {
                             <div className='max-w-[456px] max-xl:max-w-none max-xl:text-center'>
                                 <SectionHeading CommonHeading='Comprehensive Utility' CommonHeadingBold='Comparisons' />
                             </div>
-                            <div className='accordion-parent pt-12 max-lg:pt-7 max-md:pt-5 max-xl:mx-auto max-xl:max-w-[558px]'>
+                            <div className='accordion-parent pt-12 max-lg:pt-7 max-md:pt-5 max-xl:mx-auto max-xl:max-w-[558px] cursor-pointer'>
                                 {ACCORDION_DATA_LIST.map((item, index) => (
                                     <div
                                         key={index}
@@ -57,7 +57,7 @@ const UtilitySection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 };
 

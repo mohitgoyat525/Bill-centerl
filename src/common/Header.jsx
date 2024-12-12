@@ -27,8 +27,7 @@ const Header = () => {
     
     return (
         
-        <div>
-            <header>
+        
                 <nav className="flex items-center justify-between pt-5">
                     <a href="/">
                         <img
@@ -39,7 +38,7 @@ const Header = () => {
                     </a>
                     <div className={` z-40 flex gap-10 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'bg-darkGreen max-lg:left-0' : 'left-full'}`}>
                         {NAV_LIST.map((obj, i) => (
-                            <a onClick={() => toggleNavigate(obj.id)} href={obj.id} className="text-white text-base font-normal font-helvetica relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5 after:left-0" key={i}>{obj.name}
+                            <a onClick={() => toggleNavigate(obj.link)} href={obj.link} className="text-white text-base font-normal font-helvetica relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5 after:left-0" key={i}>{obj.name}
                             </a>
                         ))}
                         <button className="font-helvetica flex items-center gap-3 px-[22px] py-2 transition-all ease-linear duration-200 hover:bg-darkGreen hover:text-white hover-border-darkGreen bg-white text-black rounded-e-full border border-solid rounded-b-full lg:hidden">
@@ -64,8 +63,7 @@ const Header = () => {
                         ></span>
                     </button>
                 </nav>
-            </header>
-        </div>
+      
     );
 };
 

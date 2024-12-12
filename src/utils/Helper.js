@@ -3,27 +3,27 @@ import { BLUNDE_ICON, BULP_ICON, COMPRESHIVE_ICON, GAS_PLAN_ICON, INTERENT_ICON,
 export const NAV_LIST = [
   {
     name: "About",
-    id: "/about",
+    link: "/about",
   },
   {
     name: "How It Works",
-    id: "/how",
+    link: "/how",
   },
   {
     name: "Services",
-    id: "/service",
+    link: "/service",
   },
   {
     name: "Testimonials",
-    id: "/testimonials",
+    link: "/testimonials",
   },
   {
     name: "Why Us",
-    id: "/why",
+    link: "/why",
   },
   {
     name: "FAQ",
-    id: "/faq",
+    link: "/faq",
   },
 ];
 
@@ -105,7 +105,7 @@ export const TAILORED_CARD_LIST = [
 ];
 
 // choose-card-list
-export const CHOOSEUS_CARD_LIST = [
+export const CHOOSE_US_CARD_LIST = [
   {
     icon: <SIMPLIFIED_iCON />,
     title: "Simplified Comparison Process",

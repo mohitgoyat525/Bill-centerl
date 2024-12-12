@@ -9,7 +9,7 @@ import SectionHeading from '../../common/SectionHeading';
 
 const TestimonialsSlider = () => {
     return (
-        <div>
+        
             <div className='max-w-[1140px] mx-auto w-full px-4 xl:mt-[162px] lg:mt-28 md:mt-20 sm:mt-14 mt-6 relative'>
                 <div className='flex items-center justify-center'>
                     <SectionHeading CommonHeading="Our" CommonHeadingBold='Testimonials' />
@@ -67,7 +67,7 @@ const TestimonialsSlider = () => {
                     <div className="custom-next max-w-max absolute top-24 xl:block max-xl:hidden -right-20 cursor-pointer border px-4 py-3 rounded-full hover:bg-black arrows-icon transition-all ease-linear duration-200"><NEXT_ARROW /></div>
                 </div>
             </div>
-        </div>
+        
     )
 }
 

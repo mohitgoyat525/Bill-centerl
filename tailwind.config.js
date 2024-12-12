@@ -14,9 +14,6 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {
-        helvetica: ["helvetica", "sans-serif"],
-      },
       colors: {
         'darkGreen': "#003459F5",
         'darkBlack': "#00000033",

@@ -1,7 +1,7 @@
 import React from 'react'
 import { BUTTON_ARROW, LIKED_ICON } from '../../utils/icons'
 import SectionHeading from '../../common/SectionHeading'
-import { CHOOSEUS_CARD_LIST } from '../../utils/helper'
+import { CHOOSE_US_CARD_LIST } from '../../utils/helper'
 
 const ChooseUs = () => {
   return (
@@ -24,9 +24,10 @@ const ChooseUs = () => {
                   </div>
               </div>
               <div className="w-7/12 max-lg:w-full">
-                  <div className='flex flex-wrap'>
-                      {CHOOSEUS_CARD_LIST.map((obj, i) => (
-                          <div key={i} className='p-3 w-6/12 max-md:w-full max-w-[334px] mx-auto'>
+                  <div className='flex flex-wrap max-lg:justify-center'>
+                      {CHOOSE_US_CARD_LIST.map((obj, i) => (
+                          
+                          <div key={i} className='p-3 w-6/12 max-md:w-full max-w-[334px] mx-auto max-xl:mx-0'>
                               <div className='shadow-box p-6 max-xl:p-3 hover:bg-darkGreen group duration-300 ease-linear transition-all h-[286px] max-sm:h-[230px] border border-green-white rounded'>
                                   <div className='pb-0.5 utility-icon'>{obj.icon}</div>
                                   <h3 className='group-hover:text-white pt-4 text-deepBlue text-2xl max-sm:text-xl font-normal max-xl:pt-2'>{obj.title}</h3>

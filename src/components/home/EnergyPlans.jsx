@@ -4,7 +4,7 @@ import { ENERGY_LIST } from '../../utils/helper'
 import CustomButton from "../../common/CustomButton";
 const EnergyPlans = () => {
   return (
-    <div>
+    
       <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-md:pt-12 max-sm:pt-10'>
         <div className='container'>
           <div className='flex gap-[75px] max-xl:gap-16 max-lg:gap-12 max-md:gap-8 max-sm:gap-5 max-lg:flex-col-reverse'>
@@ -24,14 +24,14 @@ const EnergyPlans = () => {
                   </div>
                 ))}</ul>
                 <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6'>
-                  <CustomButton customClass="min-w-[201px]" btnTittle="compare With Us"/>
+                  <CustomButton customClass="min-w-[201px]" btnTittle="Compare With Us"/>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 
