@@ -29,7 +29,7 @@ const HeroSection = () => {
                     required
                     className="placeholder:text-deepBlue placeholder:text-base placeholder:font-normal placeholder:max-sm:text-sm max-sm:text-sm outline-none px-6 max-sm:px-3  text-deepBlue bg-transparent"
                   />
-                  <CustomButton btnTittle="compare" />
+                  <CustomButton btnTittle="compare" customClass="min-w-[137px]" />
                 </form>
               </div>
             </div>

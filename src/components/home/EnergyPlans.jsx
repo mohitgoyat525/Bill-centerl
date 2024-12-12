@@ -23,8 +23,8 @@ const EnergyPlans = () => {
                     <li key={i} className='text-base max-md:text-sm font-normal text-deepBlue'>{items}</li>
                   </div>
                 ))}</ul>
-                <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6 w-[201px]'>
-                  <CustomButton btnTittle="compare With Us" />
+                <div className='mt-[42px] max-lg:flex max-lg:items-center max-lg:justify-center max-lg:mt-6'>
+                  <CustomButton customClass="min-w-[201px]" btnTittle="compare With Us"/>
                 </div>
               </div>
             </div>
